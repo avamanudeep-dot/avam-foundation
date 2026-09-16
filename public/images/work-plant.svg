@@ -1,0 +1,36 @@
+<svg width="600" height="600" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg3" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#e7f2e2"/>
+      <stop offset="100%" stop-color="#c3e0bb"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="600" fill="url(#bg3)"/>
+  <circle cx="520" cy="110" r="70" fill="#ffffff" opacity="0.3"/>
+
+  <!-- cupped hands -->
+  <g>
+    <path d="M150 420 C170 460 230 480 300 480 C370 480 430 460 450 420 L440 380 C400 410 350 424 300 424 C250 424 200 410 160 380 Z" fill="#c9895e"/>
+    <path d="M150 420 L120 460 C108 478 118 500 140 506 C158 512 176 502 184 484 L206 440" fill="#c9895e"/>
+    <path d="M450 420 L480 460 C492 478 482 500 460 506 C442 512 424 502 416 484 L394 440" fill="#c9895e"/>
+    <ellipse cx="300" cy="430" rx="150" ry="26" fill="#8a5a37"/>
+  </g>
+
+  <!-- soil mound -->
+  <ellipse cx="300" cy="420" rx="90" ry="26" fill="#6b4b30"/>
+
+  <!-- seedling -->
+  <g transform="translate(300,420)">
+    <rect x="-6" y="-90" width="12" height="90" rx="6" fill="#3f8f52"/>
+    <path d="M0 -90 C-40 -110 -60 -80 -30 -60 C-10 -70 0 -80 0 -90 Z" fill="#4fa860"/>
+    <path d="M0 -70 C40 -95 65 -60 35 -40 C15 -50 0 -60 0 -70 Z" fill="#5cb96b"/>
+    <path d="M0 -100 C-15 -130 15 -130 5 -100 Z" fill="#6fc97f"/>
+  </g>
+
+  <!-- floating leaves -->
+  <g opacity="0.6">
+    <circle cx="100" cy="140" r="8" fill="#4fa860"/>
+    <circle cx="480" cy="220" r="10" fill="#4fa860"/>
+    <circle cx="150" cy="500" r="6" fill="#4fa860"/>
+  </g>
+</svg>

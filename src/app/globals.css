@@ -1,26 +1,35 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #f6f9f4;
+  --foreground: #1c2b20;
+  --brand-green: #1f6b3a;
+  --brand-green-light: #2f8a4a;
+  --brand-green-pale: #eaf3e6;
+  --brand-cream: #fdf8f0;
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  --color-brand-green: var(--brand-green);
+  --color-brand-green-light: var(--brand-green-light);
+  --color-brand-green-pale: var(--brand-green-pale);
+  --color-brand-cream: var(--brand-cream);
+  --font-sans: var(--font-inter);
+  --font-display: var(--font-playfair);
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-sans), Arial, Helvetica, sans-serif;
 }
+
+.font-display {
+  font-family: var(--font-display), Georgia, serif;
+}
+
+.hero-leaf { position: absolute; width: 22rem; height: 22rem; border-radius: 80% 20% 80% 20%; border: 1px solid rgb(53 119 65 / 12%); opacity: .65; pointer-events: none; }
+.hero-leaf-left { left: -17rem; bottom: -15rem; background: radial-gradient(ellipse at 80% 20%, transparent 0 37%, rgb(108 163 95 / 12%) 38% 47%, transparent 48%); }
+.hero-leaf-mid { left: 45%; top: 2rem; width: 15rem; height: 15rem; transform: rotate(28deg); background: radial-gradient(ellipse at 50% 50%, rgb(119 168 104 / 12%) 0 37%, transparent 38%); }

@@ -1,0 +1,35 @@
+<svg width="600" height="600" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg2" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#fdf1e2"/>
+      <stop offset="100%" stop-color="#f6dcb8"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="600" fill="url(#bg2)"/>
+  <circle cx="80" cy="90" r="60" fill="#ffffff" opacity="0.35"/>
+  <circle cx="540" cy="500" r="90" fill="#ffffff" opacity="0.3"/>
+
+  <!-- giving hand -->
+  <g>
+    <path d="M120 360 C140 320 190 300 230 320 L300 350 C320 358 330 380 318 398 C308 414 286 418 268 408 L220 384" fill="#c9895e"/>
+    <path d="M120 360 L90 420 C82 438 92 456 112 460 C128 464 144 454 150 438 L180 366" fill="#c9895e"/>
+  </g>
+
+  <!-- bowl of food -->
+  <g transform="translate(260,250)">
+    <ellipse cx="120" cy="150" rx="130" ry="30" fill="#00000012"/>
+    <path d="M0 100 a120 60 0 0 0 240 0 Z" fill="#e8b23a"/>
+    <path d="M0 100 a120 60 0 0 0 240 0 v10 a120 60 0 0 1 -240 0 Z" fill="#c98f1f"/>
+    <ellipse cx="120" cy="98" rx="120" ry="40" fill="#3f8f52"/>
+    <circle cx="80" cy="90" r="14" fill="#d94f4f"/>
+    <circle cx="140" cy="80" r="12" fill="#f4d35e"/>
+    <circle cx="170" cy="98" r="10" fill="#d94f4f"/>
+    <circle cx="100" cy="70" r="10" fill="#6fae5a"/>
+  </g>
+
+  <!-- receiving hands -->
+  <g>
+    <path d="M480 420 C460 390 420 380 390 396 L340 420 C324 428 320 448 332 460 C344 472 364 470 378 460 L410 440" fill="#e3a479"/>
+    <path d="M480 420 L510 460 C522 476 514 496 494 502 C478 508 462 500 454 484 L432 444" fill="#e3a479"/>
+  </g>
+</svg>
